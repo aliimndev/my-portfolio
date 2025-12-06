@@ -1,30 +1,24 @@
-# Portfolio for Ali Imannudin
+# my-portofolio
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+This repository contains my personal portfolio. Here you will find a collection of my projects, experiences, and skills in software development. The purpose of this repository is to document and showcase my work.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/aliimndevs-projects/v0-portfolio-for-ali-imannudin)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/jiDWtzNb4aB)
+## Features
 
-## Overview
+- List of completed projects
+- Description of technologies used
+- Instructions on how to run each project
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## Getting Started
 
-## Deployment
+1. Clone this repository:
+   ```
+   git clone https://github.com/aliimndev/my-portofolio.git
+   ```
+2. Follow the documentation in each project folder.
 
-Your project is live at:
+## Contact
 
-**[https://vercel.com/aliimndevs-projects/v0-portfolio-for-ali-imannudin](https://vercel.com/aliimndevs-projects/v0-portfolio-for-ali-imannudin)**
+For more information, please contact me via the email listed on my GitHub profile.
 
-## Build your app
+---
 
-Continue building your app on:
-
-**[https://v0.app/chat/jiDWtzNb4aB](https://v0.app/chat/jiDWtzNb4aB)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
