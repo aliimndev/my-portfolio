@@ -6,7 +6,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
- 
+  turbopack: {
+    root: '/home/ale/Destop/my-porto/my-portfolio',
+  },
 }
 
 export default nextConfig
