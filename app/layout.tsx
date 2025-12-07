@@ -1,11 +1,12 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Inter, Geist_Mono } from "next/font/google"
-import { Analytics } from "@vercel/analytics/next"
+import { ThemeProvider } from "@/components/theme-provider"
+import { GradientMeshBackground } from "@/components/gradient-mesh-background"
 import "./globals.css"
 
 const _inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
-const _geistMono = Geist_Mono({ subsets: ["latin"] })
+const _geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono" })
 
 export const metadata: Metadata = {
   title: "Ali Imannudin",
@@ -36,11 +37,19 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className="dark">
-      <body className={`font-sans antialiased ${_inter.variable} ${_geistMono.variable}`}>
-        {children}
-        <Analytics />
+    <html lang="en" suppressHydrationWarning>
+      <body className={`font-sans antialiased ${_inter.variable} ${_geistMono.variable}`} suppressHydrationWarning>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <GradientMeshBackground />
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   )
 }
+

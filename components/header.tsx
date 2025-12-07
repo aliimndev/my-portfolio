@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ThemeToggle } from "./theme-toggle"
 
 export function Header() {
   return (
@@ -7,7 +8,7 @@ export function Header() {
         <Link href="/" className="font-mono text-sm tracking-tight text-foreground">
           aliimn.dev
         </Link>
-        <nav className="flex items-center gap-8">
+        <nav className="flex items-center gap-6">
           <Link href="#work" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
             Work
           </Link>
@@ -17,8 +18,10 @@ export function Header() {
           >
             Contact
           </Link>
+          <ThemeToggle />
         </nav>
       </div>
     </header>
   )
 }
+

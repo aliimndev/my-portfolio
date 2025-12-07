@@ -21,14 +21,15 @@ const projects = [
     href: "#",
   },
   {
-    title: "API Gateway",
-    tech: "Go, Docker, Kubernetes",
-    year: "2023",
-    href: "#",
+    title: "Web Development Competition Project",
+    tech: "HTML, CSS, JavaScript",
+    year: "2024",
+    href: "https://landingpage-ldkm24.vercel.app/",
+
   },
   {
-    title: "Analytics Dashboard",
-    tech: "React, D3.js, GraphQL",
+    title: "Business Backend System",
+    tech: "Python, Flask, SQLite",
     year: "2023",
     href: "#",
   },
