@@ -9,7 +9,7 @@ const _inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 const _geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono" })
 
 export const metadata: Metadata = {
-  title: "Ali Imannudin",
+  title: "aliimndev",
   description: "Fullstack Developer building thoughtful digital experiences with modern web technologies.",
   generator: "v0.app",
   icons: {
